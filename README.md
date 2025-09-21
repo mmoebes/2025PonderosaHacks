@@ -17,7 +17,7 @@ Download `NodeJS` from [Nodejs.org](https://nodejs.org/)
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/mmoebes/2024PonderosaHacks
+   git clone https://github.com/mmoebes/2025PonderosaHacks
    ```
 
 2. Install NPM packages
