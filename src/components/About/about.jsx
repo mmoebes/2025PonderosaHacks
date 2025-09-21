@@ -9,11 +9,11 @@ const AboutSection = () => {
   return (
     <div className="about-section">
       <div className="about-head-section">
-       {/*
+       
         <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
-        <h1 className="about-heading2">Limited Spots - Register Now!</h1>    */}
+        <h1 className="about-heading2">2025 Limited Spots - Register Now!</h1>    
 
-         <h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1>
+         {/* <h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1>*/}
           
       </div>
       <h1 className="heading-tag-line3">About</h1>
