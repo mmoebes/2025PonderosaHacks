@@ -22,7 +22,7 @@ const Home = () => {
 
   function calculateTimeLeft() {
     const currentTime = new Date();
-    const targetDate = new Date("2024-10-06");
+    const targetDate = new Date("2026-03-28");
     targetDate.setHours(7, 59, 59); // Set the target time to 11:59 pm
 
     const timeDiff = targetDate.getTime() - currentTime.getTime();
@@ -58,15 +58,15 @@ const Home = () => {
             </a>
           </div>
           
+          {/*<h1 className="greetings">
+          Thanks for attending! Stay tuned for future events!
+          </h1> */}
+          
           <h1 className="greetings">
-          Thanks for joining us on our first Planet Ponderosa adventure!
-          </h1> 
-          {/*
-          <h1 className="greetings">
-              1st Ever High School Hackathon in Flagstaff
+              2nd Annual High School Hackathon in Flagstaff
           </h1>
           <h2 className="date">
-              October 5, 2024 @ 8AM - 6:30PM
+              March 28, 2026
           </h2> 
           <h3 className="college-name">
             <a href="https://enrollbasis.com/flagstaff/" target="_blank">
@@ -96,7 +96,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="button">
+          {/*<div className="button">
             <button
               type="button"
               className="btn register-btn"
