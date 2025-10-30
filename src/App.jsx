@@ -12,7 +12,8 @@ import {
   // Faq,
   Venue,
   // Gallery,
-  Sponsors
+  Sponsors,
+  PineTrees
 } from "./components";
 
 import { TopButton } from "./components/TopButton";
@@ -33,6 +34,7 @@ const App = () => {
       {/* <Gallery /> */}
       <Footer />
       <TopButton />
+      <PineTrees />
     </div>
   );
 };

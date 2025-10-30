@@ -10,6 +10,7 @@ import Scheduled from "./Schedule/Schedule";
 import Venue from "./Venue/Venue";
 //import Gallery from "./Gallery/Gallery";
 import Sponsors from "./sponsored/sponsored";
+import PineTrees from "./PineTrees/PineTrees";
 
 
 export {
@@ -25,4 +26,5 @@ export {
   Venue,
   //Gallery,
   Sponsors,
+  PineTrees,
 };
