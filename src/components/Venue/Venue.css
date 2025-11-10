@@ -8,7 +8,7 @@
   letter-spacing: 1px;
   text-align: center;
   font-family: "Poppins", sans-serif;
-  color: #4ae06a;
+  color: #fff;
 }
 
 .heading-underline2 {
@@ -18,12 +18,12 @@
 }
 .venue-date {
   font-size: 1.5rem;
-  color: #ffae00;
+  color: #3d8343;
   width: 100%;
 }
 .venue-address {
   font-size:2rem;
-  color: #fff;
+  color: #6c317e;
   align-items: center;
   font-weight: 600;
   animation: fadeIn 1s;
@@ -62,7 +62,7 @@ margin-right: auto;
   padding-left: .5%;
   padding-right: .5%;
   font-size: 1.5rem;
-  color: #0a522a;
+  color: #3d8343;
   font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ margin-right: auto;
 
 .venue-location > a > h4 {
   margin: 0;
-  color: #fff;
+  color: #3d8343;
 }
 
 .venue-subheading-right {
@@ -124,7 +124,7 @@ margin-right: auto;
 
   .venue-date {
     font-size: 2rem;
-    color: #ffae00;
+    color: #3d8343;
   }
   .venue-address {
     font-size:2rem;

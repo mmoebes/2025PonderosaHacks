@@ -20,11 +20,10 @@ const Venue = () => {
         </div>
 
           <div className="venue-subheading-left">
-            <h3 className="venue-date">October 5, 2024</h3>
+            <h3 className="venue-date">March 28th, 2026</h3>
             <h4 className="venue-date">8AM - 6:30PM</h4>
-            <h4 className="venue-date">. . .</h4>
             <address className="venue-address">
-              BASIS Flagstaff School
+              BASIS Flagstaff High School
             </address>
 
           </div>

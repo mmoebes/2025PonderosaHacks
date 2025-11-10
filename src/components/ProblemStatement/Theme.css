@@ -109,7 +109,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffae00;
+  background: #3d8343;
   opacity: 0.90;
   z-index: -1;
 
@@ -124,7 +124,8 @@
 }
 
 .back {
-  background: #fff;
+  background: #3d8343;
+  color: #000000;
   transform: rotateY(-180deg);
   padding: 0 2em;
 }

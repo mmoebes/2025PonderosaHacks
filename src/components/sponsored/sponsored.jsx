@@ -22,7 +22,7 @@ const Sponsors = () => {
       <h1 className="heading-tag-line1">Sponsors</h1>
       <hr className="heading-underline1" />
       <h2 align="center"><br />
-        Thank you for sponsoring our October 2024 Hackathon event!
+        Thank you for sponsoring our 2024-25 Hackathon event!
         </h2>
     </div>
     <div className="responsive-multi-column-grid">
@@ -91,7 +91,7 @@ const Sponsors = () => {
     <div className="sponsor-subsection">
     <div className="sponsor-left-section">
 
-      {/*
+      
         <h2 className="sponsor-heading"><br />
         This event is being organized by high school students - please support us!
         </h2>
@@ -110,7 +110,7 @@ const Sponsors = () => {
         <a href = {Pdf} target = "_blank"><FaDownload />  Download our Sponsorship Packet</a>
         <br />
         </div>
-        */}
+        
         <br />
 
 

@@ -19,7 +19,7 @@ a:active {
 .about-head-section {
   padding-top: 0.4rem;
   padding-bottom: .4rem;
-  background-color: #efa506;
+  background-color: #3d8343;
 }
 
 .about-subsection {
@@ -87,7 +87,7 @@ a:active {
   padding-left: 0.5rem;
 }
 .about-heading {
-  color: #efa506;
+  color: #3d8343;
   font-size: 40px;
   margin-bottom: 10px;
   font-weight: 500;

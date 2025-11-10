@@ -8,10 +8,10 @@ export default function PineTrees({
   sizeJitter = 0.12,    // 0..0.3 gentle, stable size variation
   spacingFactor = 0.98,  // >1 spreads trees horizontally
   offsetXPercent = -0., // shift whole forest left/right (% of viewport)
-  baseYOffset = -100,      // raise/lower the forest baseline (px)
+  baseYOffset = -135,      // raise/lower the forest baseline (px)
 
-  treeHSpeed = 0.3,     // outward split speed (left trees go left, right go right)
-  treeVSpeed = 0.3,     // vertical parallax (visual lift/bob with scroll)
+  treeHSpeed = 0.25,     // outward split speed (left trees go left, right go right)
+  treeVSpeed = 0.25,     // vertical parallax (visual lift/bob with scroll)
   deadzonePx = 0,       // calm center band (px) where split slows down
   minSideFactor = 0.25, // min split speed inside deadzone (0..1)
 

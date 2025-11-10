@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-//import prizes from "/images/prizes.png";
+import prizes from "/images/prizes.png";
 import PH1 from "/images/PH1.png";
 import PH2 from "/images/PH2.png";
 import AZDS from "/images/AZDS.png";
@@ -9,11 +9,12 @@ const AboutSection = () => {
   return (
     <div className="about-section">
       <div className="about-head-section">
-       
-        {/*<h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
-        <h1 className="about-heading2">2025 Limited Spots - Register Now!</h1>    */}
-
-          <h1 className="about-heading2">Registration will open in 2026</h1>
+       {/*
+        <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
+        <h1 className="about-heading2">Limited Spots - Register Now!</h1>    
+       */}
+        <h1 className="about-heading2">Registration will open soon!</h1>
+         {/*<h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1> */}
           
       </div>
       <h1 className="heading-tag-line3">About</h1>
@@ -21,38 +22,53 @@ const AboutSection = () => {
       <div className="about-subsection" id="About">
 
         <div className="about-left-section">
-          {/*
+          
           <h2 className="about-heading">
           What is a Hackathon? 
           </h2>
           <p>
-          Whether you are into Computer Science, Engineering, Art, Medicine, or anything else, a hackathon is for you! 
-          It's an opportunity to create innovative solutions to challenging problems. While we will not likely find THE solution 
-          to a global problem such as world hunger, water pollution, or accessibility barriers, we can workshop creative ideas 
-          that may one day contribute to actual solutions. With hours 
-          to brainstorm, create, and model, you will present your project to a panel of judges for a chance to win 
-          cool prizes. During the day, we will provide food, snacks, activities to earn prizes, skills workshops to help 
-          with your project, and free goodies from our sponsors.
+Whether you’re passionate about Computer Science, Engineering, Art, Medicine, 
+or anything else, a hackathon is for you! 
+It’s a chance to bring creative ideas to life while tackling real-world challenges.
+ While we might not solve global issues like world hunger, water pollution, 
+ or accessibility barriers in a single day, we can prototype
+  and imagine innovative solutions that could one day make a difference.
+
+Over the course of the event, you’ll brainstorm, design, 
+and build your project before presenting it to a panel of judges
+ for a chance to win awesome prizes. Throughout the day, enjoy free meals and 
+ snacks, skill-building workshops, fun side activities, and giveaways from our sponsors.
+
+
 
           </p>
           <p>
-            Even though our event is called a hackathon, your brain is the only thing you'll be hacking. 
-            If you can code, feel free to write programs or program a solution for your project. And if you can't code, don't worry! 
-            You'll be at no disadvantage. You can utilize any of your skills or passions to create
-            your project. You can make a prototype of a physical device, build a website (we'll have a workshop teaching you 
-            how), a game, or anything you can think of. We'll have volunteers and people knowledgeable in engineering, 
-            computer science, and other topics to help you with your project. Come with a team or find one at the event. 
+Even though it’s called a “hackathon,” your brain is the only thing you’ll be hacking! 
+If you can code, great! Build a program or prototype your idea digitally. 
+If not, no problem! You can create anything that expresses your skills and imagination,
+ from a physical device or website 
+ (we’ll even teach you how to build one) to a game, model, or concept presentation. 
+ Volunteers and mentors with experience in engineering, computer science, 
+ and more will be there to guide you along the way.
+
+Come with a team or form one when you arrive.
+
+
           </p>
-          <p>Everything begins with an IDEA.</p>
-          <h2 className="about-heading">
+          <p>Everything begins with an idea.</p>
+
+          {/*} 
+                    <h2 className="about-heading">
           A sneak peak at our prizes...
           </h2>
               <a href="/">
                     <img src={prizes} alt="Prizes" class="responsive2"/>
               </a>
-              */}
+              
+          */}
 
-          <p>
+
+         {/*} <p>
           Ponderosa Hacks is a student-led organization founded in 2024. Our mission is to promote innovation, teamwork, and STEM topics for students in Arizona and beyond.
           We held our first free hackathon event on October 5th, 2024 at BASIS Flagstaff school and it was an huge success! </p>
           <a href="/" >
@@ -84,7 +100,7 @@ const AboutSection = () => {
               <a href="https://azdailysun.com/news/local/education/flagstaff-students-organize-hackathon-event-to-promote-stem-education/article_cfac93b6-84d7-11ef-8dc6-43c987d12bfa.htm">
                     <img src={AZDS} class="responsive3"/>
               </a><br />
-
+*/}
         </div>
 
       </div>
