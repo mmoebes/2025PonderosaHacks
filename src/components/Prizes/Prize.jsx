@@ -101,6 +101,20 @@ const Prize = ({ imageWidth = 220, imageHeight = "auto" }) => {
         </div>
 
         <div>
+          <img src={Ryleigh1} alt="Ryleigh" style={imgStyle} />
+          <br /><br />
+          <p><b>Outreach Director</b></p>
+          <p>
+            <b>Ryleigh Conklin – Flagstaff High School, Junior</b><br />
+            Ryleigh is interested in engineering and is a problem solver 
+            and hands-on learner. She is involved in school activities and 
+            side hustles that let her explore creativity and leadership. 
+            She also enjoys balancing her academics with a love for sports, 
+            such as flag football and track.
+          </p>
+        </div>
+
+        <div>
           <img src={Ash1} alt="Ash" style={imgStyle} />
           <br /><br />
           <p><b>Outreach Director</b></p>
@@ -127,19 +141,7 @@ const Prize = ({ imageWidth = 220, imageHeight = "auto" }) => {
           </p>
         </div>
 
-        <div>
-          <img src={Ryleigh1} alt="Ryleigh" style={imgStyle} />
-          <br /><br />
-          <p><b>Outreach Director</b></p>
-          <p>
-            <b>Ryleigh Conklin – Flagstaff High School, Junior</b><br />
-            Ryleigh is interested in engineering and is a problem solver 
-            and hands-on learner. She is involved in school activities and 
-            side hustles that let her explore creativity and leadership. 
-            She also enjoys balancing her academics with a love for sports, 
-            such as flag football and track.
-          </p>
-        </div>
+
 
 
         
