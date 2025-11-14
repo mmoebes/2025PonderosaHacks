@@ -170,4 +170,34 @@ a:link {
   max-width:200px;
   text-align: center;
 }
+
+}
+/* --- Always center the article section --- */
+.sponsor-article {
+  text-align: center !important;
+  margin-top: 0rem;
+  width: 100%;
+}
+
+/* Center the image */
+.sponsor-article img {
+  display: block;
+  margin: 1rem auto 0 auto;
+}
+
+.sponsor-article p {
+  font-size: 20px;       
+  font-family: Poppins, sans-serif;   
+  color: #595959;        
+  line-height: 1.6;      
+  margin-bottom: 0rem;
+}
+
+.article-separator {
+  width: 60%;
+  margin: 3rem auto 2rem auto;
+  border: 0;
+  height: 2px;
+  background-color: #3d8343; /* forest green to match your brand */
+  opacity: 0.6;
 }

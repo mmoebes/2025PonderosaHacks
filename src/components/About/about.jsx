@@ -91,16 +91,9 @@ Come with a team or form one when you arrive.
               <a href="https://www.instagram.com/ponderosa_hacks/" target="_blank">
               Instagram Account</a>&nbsp;for select photos from the event.
           </p>
-          <p><br />
-              The Arizona Daily Sun also wrote an article about our hackathon! Check out the&nbsp;          
-              <a href="https://azdailysun.com/gallery-ponderosa-hacks-hackathon/collection_cd949b5a-8446-11ef-b13f-43e42db8a0d5.html#1" target="_blank">
-              photos</a> &nbsp;and&nbsp;          
-              <a href="https://azdailysun.com/news/local/education/flagstaff-students-organize-hackathon-event-to-promote-stem-education/article_cfac93b6-84d7-11ef-8dc6-43c987d12bfa.htm" target="_blank">
-              article&nbsp;</a>(subscription required to read).</p>
-              <a href="https://azdailysun.com/news/local/education/flagstaff-students-organize-hackathon-event-to-promote-stem-education/article_cfac93b6-84d7-11ef-8dc6-43c987d12bfa.htm">
-                    <img src={AZDS} class="responsive3"/>
-              </a><br />
-*/}
+          */}
+
+
         </div>
 
       </div>
