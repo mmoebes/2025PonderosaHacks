@@ -562,3 +562,18 @@ h3 {
 
 
 }
+
+.embersafe-logo {
+  width: 400px;  
+  height: auto;   
+}
+
+.partnership-text {
+  font-family: "Oswald", sans-serif; 
+  font-size: 1.8rem;                 
+  font-weight: 600;                  
+  color: #222;                
+  margin-bottom: 0.5rem;             
+  text-transform: uppercase;     
+  letter-spacing: 1px
+}

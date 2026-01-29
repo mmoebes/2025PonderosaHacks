@@ -15,6 +15,11 @@ import S9 from "/images/warners.png";
 import S10 from "/images/evergreen.png";
 import S11 from "/images/findlay.png";
 import S12 from "/images/boba.png";
+import S13 from "/images/NAR.png";
+import S14 from "/images/babbittFord.png";
+import S15 from "/images/allstate.png";
+import S16 from "/images/evansGroupLaw.png";
+import S17 from "/images/emberSafeLogoBlack.png";
 import AZDS from "/images/AZDS.png"; // ✅ add your Arizona Daily Sun image here
 
 const Sponsors = () => {
@@ -42,52 +47,91 @@ const Sponsors = () => {
         <hr className="heading-underline1" />
         <h2 align="center">
           <br />
-          Thank you for sponsoring our 2024-25 Hackathon event!
+          Thank you for sponsoring our 2025-26 Hackathon event!
         </h2>
       </div>
 
+
       {/* Sponsor logo grid */}
       <div className="responsive-multi-column-grid">
+               <div>
+          <a
+            href="https://www.embersafecommunities.org/"
+            id="EmberSafe-Communities"
+          >
+            <img
+              src={S17}
+              alt="EmberSafe Communities"
+              className="responsive1"
+              style={{ marginTop: "50px" }}
+            />
+          </a>
+          <br />
+        </div>
+
         <div>
-          <a href="/" id="Marvel-Anesthesia-PLLC">
-            <img src={S8} alt="Marvel Anesthesia, PLLC" className="responsive1" />
+          <a href="https://www.evansgarrey.com/" id="EGL">
+            <img
+              src={S16}
+              alt="Evans Garrey Law"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
         <div>
           <a href="https://nau.edu/" id="Northern-Arizona-University">
-            <img src={S4} alt="Northern Arizona University" className="responsive1" />
+            <img
+              src={S4}
+              alt="Northern Arizona University"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
         <div>
           <a href="https://hackclub.com/" id="Hack-Club">
-            <img src={S3} alt="Hack Club" className="responsive1" />
+            <img
+              src={S3}
+              alt="Hack Club"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
         <div>
           <a href="https://warnercompanies.com/nursery/" id="Warners-Nursery">
-            <img src={S9} alt="Warner's Nursery" className="responsive1" />
-          </a>
-          <br />
-        </div>
-
-        <div>
-          <a href="https://www.findlaytoyotaflagstaff.net/" id="Findlay-Toyota-Flagstaff">
-            <img src={S11} alt="Findlay Toyota Flagstaff" className="responsive1" />
-          </a>
-          <br />
-        </div>
-
-        <div>
-          <a href="https://www.moonshotaz.com/" id="Moonshot">
             <img
-              src={S6}
-              alt="Northern Arizona Technology & Business Incubator, Inc."
+              src={S9}
+              alt="Warner's Nursery"
+              className="responsive1"
+            />
+          </a>
+          <br />
+        </div>
+
+        <div>
+          <a
+            href="https://www.findlaytoyotaflagstaff.net/"
+            id="Findlay-Toyota-Flagstaff"
+          >
+            <img
+              src={S11}
+              alt="Findlay Toyota Flagstaff"
+              className="responsive1"
+            />
+          </a>
+          <br />
+        </div>
+
+        <div>
+          <a href="https://northernarizonaradiology.com/" id="NAR">
+            <img
+              src={S13}
+              alt="Northern Arizona Radiology"
               className="responsive1"
             />
           </a>
@@ -96,19 +140,23 @@ const Sponsors = () => {
 
         <div>
           <a href="https://www.coconinofcu.org/" id="Coconino-FCU">
-            <img src={S1} alt="Coconino Federal Credit Union" className="responsive1" />
+            <img
+              src={S1}
+              alt="Coconino Federal Credit Union"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
         <div>
           <a
-            href="https://www.evergreeneducationalconsulting.com/"
-            id="Evergreen-Educational-Consulting"
+            href="https://agents.allstate.com/eric-boatner-flagstaff-az.html"
+            id="Allstate-Eric-Boatner"
           >
             <img
-              src={S10}
-              alt="Evergreen Educational Consulting"
+              src={S15}
+              alt="Allstate – Eric Boatner"
               className="responsive1"
             />
           </a>
@@ -117,34 +165,29 @@ const Sponsors = () => {
 
         <div>
           <a href="https://www.chick-fil-a.com/" id="Chick-Fil-A">
-            <img src={S7} alt="Chick-Fil-A" className="responsive1" />
+            <img
+              src={S7}
+              alt="Chick-Fil-A"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
         <div>
-          <a href="https://www.flagtagaz.com/" id="FlagTag">
-            <img src={S2} alt="FlagTag" className="responsive1" />
+          <a href="https://www.babbittford.com/" id="Babbitt-Ford">
+            <img
+              src={S14}
+              alt="Babbitt Ford"
+              className="responsive1"
+            />
           </a>
           <br />
         </div>
 
-        <div>
-          <a href="https://oreganos.com/" id="Oreganos-Pizza">
-            <img src={S5} alt="Oregano's Pizza" className="responsive1" />
-          </a>
-          <br />
-        </div>
-
-        <div>
-          <a href="https://boba.hackclub.com/" id="Boba-Drops">
-            <img src={S12} alt="Boba Drops" className="responsive1" />
-          </a>
-          <br />
-        </div>
       </div>
 
-      {/* Sponsor info + donations */}
+
       <div className="sponsor-subsection">
         <div className="sponsor-left-section">
           <h2 className="sponsor-heading">

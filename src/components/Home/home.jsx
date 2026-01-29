@@ -5,6 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 import { IoLocationSharp } from "react-icons/io5";
 import { FaGift} from "react-icons/fa6";
 import PonderosaHacksLogo from "/images/hackslogo.png";
+import embersafeLogo from "/images/emberSafeLogoBlack.png";
 
 const Home = () => {
 
@@ -50,13 +51,29 @@ const Home = () => {
   }
 
   return (
-    <div className="home-container" id="Home">
-          <div className="logo">
-            
-            <a href="/">
-              <img src={PonderosaHacksLogo} alt="PonderosaHacks"  />
-            </a>
-          </div>
+            <div className="home-container" id="Home">
+                  <div className="logo">
+          <a href="/">
+            <img src={PonderosaHacksLogo} alt="PonderosaHacks" />
+          </a>
+
+<div className="partnership-block">
+  <p className="partnership-text">In partnership with</p>
+  <a
+    href="https://www.embersafecommunities.org/" 
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <img
+      src={embersafeLogo}
+      alt="EmberSafe"
+      className="embersafe-logo"
+    />
+  </a>
+</div>
+
+        </div>
+
           
           {/*<h1 className="greetings">
           Thanks for attending! Stay tuned for future events!
@@ -96,7 +113,7 @@ const Home = () => {
             </div>
           </div>
 
-          {/*<div className="button">
+          <div className="button">
             <button
               type="button"
               className="btn register-btn"
@@ -105,6 +122,7 @@ const Home = () => {
                 Register Now<FiArrowUpRight />
               </a>
             </button>
+            {/* Discord & Donate Buttons 
             <button
               type="button"
               className="btn btn-2 hover-slide-right discord"
@@ -113,6 +131,7 @@ const Home = () => {
                 Join Discord <BsDiscord />
               </a>
             </button>
+       
              <button
               type="button"
               className="btn btn-2 hover-slide-right donate"
@@ -121,7 +140,8 @@ const Home = () => {
                 Donate <FaGift />
               </a>
             </button>
-          </div>*/}
+                 */}
+          </div>
     </div>
   );
 };
