@@ -20,12 +20,14 @@ import S14 from "/images/babbittFord.png";
 import S15 from "/images/allstate.png";
 import S16 from "/images/evansGroupLaw.png";
 import S17 from "/images/emberSafeLogoBlack.png";
-import AZDS from "/images/AZDS.png"; // ✅ add your Arizona Daily Sun image here
+import S18 from "/images/Snowbowl.png";
+import S19 from "/images/TrueNorthDentistry.png";
+import AZDS from "/images/AZDS.png"; 
 
 const Sponsors = () => {
   return (
     <div className="sponsor-section" id="Sponsors">
-            {/* 🔽 ARTICLE SECTION BELOW EVERYTHING ELSE */}
+
       <div className="sponsor-article">
           <br />
           <p>
@@ -52,7 +54,7 @@ const Sponsors = () => {
       </div>
 
 
-      {/* Sponsor logo grid */}
+
       <div className="responsive-multi-column-grid">
                <div>
           <a
@@ -180,6 +182,29 @@ const Sponsors = () => {
               src={S14}
               alt="Babbitt Ford"
               className="responsive1"
+            />
+          </a>
+          <br />
+        </div>
+
+        <div>
+          <a href="http://snowbowl.ski/" id="Snowbowl">
+            <img
+              src={S18}
+              alt="Snowbowl"
+              className="responsive1"
+            />
+          </a>
+          <br />
+        </div>
+
+        <div>
+          <a href="https://www.truenorthdentistry.com/" id="TrueNorthDentistry">
+            <img
+              src={S19}
+              alt="True North Dentistry"
+              className="responsive1"
+              style={{ width: "80%" }}
             />
           </a>
           <br />

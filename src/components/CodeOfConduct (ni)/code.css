@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
-/* Additional styles (not specified in the HTML) */
 .code_body {
   font-family: "Nunito Sans", sans-serif;
   background-color: #f5f5f5;
@@ -81,7 +80,6 @@ li {
   color: #07131a;
 }
 
-/* for card and contact section  */
 
 .contact-section {
   margin-bottom: 30px;
@@ -106,7 +104,7 @@ li {
 }
 
 .contact-description {
-  /* color: teal; */
+
   margin: 24px;
 }
 
@@ -116,7 +114,6 @@ li {
 
 .contact-person {
   color: blue;
-  /* color: #00005c; */
 }
 
 .contact-row {

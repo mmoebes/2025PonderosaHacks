@@ -203,14 +203,14 @@ a:link {
   }
 .responsive-multi-column-grid {
   display: grid;
-  gap: 1rem;  /* space between cards */
+  gap: 1rem;  
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
   color: #fff;
 
-  /* ⭐ This is the magic line: */
+
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 .responsive1 {
@@ -221,7 +221,7 @@ a:link {
 }
 
 }
-/* --- Always center the article section --- */
+
 .sponsor-article {
   text-align: center !important;
   margin-top: 0rem;
@@ -247,6 +247,6 @@ a:link {
   margin: 3rem auto 2rem auto;
   border: 0;
   height: 2px;
-  background-color: #3d8343; /* forest green to match your brand */
+  background-color: #3d8343; 
   opacity: 0.6;
 }
