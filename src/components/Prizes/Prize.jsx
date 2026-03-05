@@ -10,6 +10,7 @@ import Ash1 from "/images/Ash1.png";
 import Ryleigh1 from "/images/Ryleigh1.png";
 import Grace1 from "/images/Grace1.png";
 import Neeva1 from "/images/Neeva1.png";
+import tessa1 from "/images/tessa1.png";
 
 const Prize = ({ imageWidth = 220, imageHeight = "auto" }) => {
   const imgStyle = {
@@ -137,6 +138,22 @@ const Prize = ({ imageWidth = 220, imageHeight = "auto" }) => {
               She is also a member of her school's model UN team.
               Outside of academics, Neeva enjoys staying active through 
               volleyball and loves exploring new places.
+   
+          </p>
+        </div>
+
+        <div>
+          <img src={tessa1} alt="Tessa" style={imgStyle} />
+          <br /><br />
+          <p><b>Middle School Outreach Director</b></p>
+          <p>
+            <b>Tessa Moebes – BASIS Flagstaff, 8th Grade</b><br />
+              Tessa loves exploring new ideas, traveling to new places, 
+              and expressing herself creativity through things like music. 
+              As part of the NJHS, she volunteers her time to support her school 
+              and community enjoys playing volleyball and racquet ball. Her participation in Ponderosa 
+              Hacks is helping to promote STEM education tto more students from
+              a young age.
    
           </p>
         </div>
