@@ -22,6 +22,7 @@ import S16 from "/images/evansGroupLaw.png";
 import S17 from "/images/emberSafeLogoBlack.png";
 import S18 from "/images/Snowbowl.png";
 import S19 from "/images/TrueNorthDentistry.png";
+import S20 from "/images/fatolives.png";
 import AZDS from "/images/AZDS.png"; 
 
 const Sponsors = () => {
@@ -205,6 +206,19 @@ const Sponsors = () => {
               alt="True North Dentistry"
               className="responsive1"
               style={{ width: "80%" }}
+            />
+          </a>
+          <br />
+        </div>
+
+                <div>
+          <a href="https://fatolivesflagstaff.com/" id="Fat-Olive's-Flagstaff">
+            <img
+              src={S20}
+              alt="Fat Olive's Flagstaff"
+              className="responsive1"
+              style={{ width: "120%", marginTop: "50px" }}
+              
             />
           </a>
           <br />
