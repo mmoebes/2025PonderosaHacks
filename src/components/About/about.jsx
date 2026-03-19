@@ -11,7 +11,7 @@ const AboutSection = () => {
       <div className="about-head-section">
        
         <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
-        <h1 className="about-heading2">Limited Spots - Register Now!</h1>    
+        <h1 className="about-heading2">Limited Spots - Register Before March 25th for a chance to win More Prizes!</h1>    
        
        {/*
         <h1 className="about-heading2">Registration will open soon!</h1>
