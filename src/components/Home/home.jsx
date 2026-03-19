@@ -80,7 +80,7 @@ const Home = () => {
           </h1> */}
           
           <h1 className="greetings">
-              2nd Annual High School Hackathon in Flagstaff
+              2nd Annual Hackathon in Flagstaff for 7th-12th Graders!
           </h1>
           <h2 className="date">
               March 28, 2026

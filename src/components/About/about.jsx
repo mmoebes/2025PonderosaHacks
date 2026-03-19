@@ -9,10 +9,10 @@ const AboutSection = () => {
   return (
     <div className="about-section">
       <div className="about-head-section">
-       {/*
+       
         <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
         <h1 className="about-heading2">Limited Spots - Register Now!</h1>    
-       */}
+       
        {/*
         <h1 className="about-heading2">Registration will open soon!</h1>
          <h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1> */}
@@ -58,7 +58,7 @@ Come with a team or form one when you arrive.
           </p>
           <p>Everything begins with an idea.</p>
 
-          {/*} 
+          {} 
                     <h2 className="about-heading">
           A sneak peak at our prizes...
           </h2>
@@ -66,7 +66,7 @@ Come with a team or form one when you arrive.
                     <img src={prizes} alt="Prizes" class="responsive2"/>
               </a>
               
-          */}
+          
 
 
          {/*} <p>
