@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import prizes from "/images/prizes.png";
+import prizes from "/images/prizes2026.png";
 import PH1 from "/images/PH1.png";
 import PH2 from "/images/PH2.png";
 import AZDS from "/images/AZDS.png";
