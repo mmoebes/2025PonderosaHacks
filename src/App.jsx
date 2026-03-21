@@ -8,7 +8,7 @@ import {
   // Judges,
   Theme,
   Prize,
-  //Scheduled,
+  Scheduled,
   // Faq,
   Venue,
   // Gallery,
@@ -26,7 +26,7 @@ const App = () => {
       <About />
       <Theme />
       <Venue />
-      {/*<Scheduled />*/}
+      <Scheduled />
       <Sponsors />
       <Prize />
       {/* <Judges/> */}
