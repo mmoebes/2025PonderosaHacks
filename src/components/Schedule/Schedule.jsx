@@ -64,7 +64,7 @@ const Schedule = () => {
               <p>
                 
               </p>
-
+{/*
               <h2 style={{ marginTop: "20px" }}>
                 <a
                   href="https://ponhack24.github.io/Resources/"
@@ -72,8 +72,10 @@ const Schedule = () => {
                   rel="noopener noreferrer"
                 >
                   Hackathon Resources
+                
                 </a>
               </h2>
+              */}
             </div>
           </div>
         </div>
