@@ -5,9 +5,9 @@ import Navbar from "./Navbar/Navbar";
 //import Judges from "./Judges/judges";
 import Theme from "./ProblemStatement/Theme";
 import Prize from "./Prizes/Prize";
-import Scheduled from "./Schedule/Schedule";
+//import Scheduled from "./Schedule/Schedule";
 //import Faq from "./Faq/Faq";
-import Venue from "./Venue/Venue";
+//import Venue from "./Venue/Venue";
 //import Gallery from "./Gallery/Gallery";
 import Sponsors from "./sponsored/sponsored";
 import PineTrees from "./PineTrees/PineTrees";
@@ -21,9 +21,9 @@ export {
   //Judges,
   Theme,
   Prize,
-  Scheduled,
+  //Scheduled,
   //Faq,
-  Venue,
+  //Venue,
   //Gallery,
   Sponsors,
   PineTrees,

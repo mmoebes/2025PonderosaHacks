@@ -1,21 +1,22 @@
 import React from "react";
 import "./about.css";
 import prizes from "/images/prizes2026.png";
-import PH1 from "/images/PH1.png";
-import PH2 from "/images/PH2.png";
+import PH1 from "/images/PH1-26.png";
+import PH2 from "/images/PH2-26.png";
 import AZDS from "/images/AZDS.png";
 
 const AboutSection = () => {
   return (
     <div className="about-section">
       <div className="about-head-section">
-       
-        <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
-        <h1 className="about-heading2">Limited Spots - Register Before March 25th for a chance to win More Prizes!</h1>    
-       
+       {/*
+       <h1 className="about-heading2">FREE Registration: Win PRIZES + get FREE stuff!</h1>
+       <h1 className="about-heading2">Limited Spots - Register Before March 25th for a chance to win More Prizes!</h1>    
+       */}
        {/*
         <h1 className="about-heading2">Registration will open soon!</h1>
-         <h1 className="about-heading2">Stay tuned for our next free Hackathon event and mini-workshops in Flagstaff, AZ</h1> */}
+        */}
+         <h1 className="about-heading2">Check out some pictures below, and stay tuned for next year's event! </h1> 
           
       </div>
       <h1 className="heading-tag-line3">About</h1>
@@ -23,7 +24,7 @@ const AboutSection = () => {
       <div className="about-subsection" id="About">
 
         <div className="about-left-section">
-          
+        {/*}  
           <h2 className="about-heading">
           What is a Hackathon? 
           </h2>
@@ -66,33 +67,35 @@ Come with a team or form one when you arrive.
                     <img src={prizes} alt="Prizes" class="responsive2"/>
               </a>
               
-          
+          */}
 
 
-         {/*} <p>
+          <p>
           Ponderosa Hacks is a student-led organization founded in 2024. Our mission is to promote innovation, teamwork, and STEM topics for students in Arizona and beyond.
-          We held our first free hackathon event on October 5th, 2024 at BASIS Flagstaff school and it was an huge success! </p>
+          We held our first ever hackathon event on October 5th, 2024 at BASIS Flagstaff. This year, we held our second annual hackathon event on March 28th at BASIS Flagstaff, and it was a huge success!</p>
           <a href="/" >
                     <img src={PH1} class="responsive2"/>
               </a>
           <p><br />
-          Students worked in teams to brainstorm and create innovative solutons
-          to three challenging theme categories presented at the event. 7th-12th grade students from several schools in Arizona with various backgrounds and interests, created websites, apps, and physical
-          prototypes to compete for prizes. Throughout the day, workshops were held for how to get started on a hackathon project, website building 101, 3D printing demos, and a fun robotics
-          smart car Arduino programming challenge. Thanks to our generous sponsors, we were able to provide breakfast (waffle station with fruit and sausage) and lunch (Firehouse Subs 
-          and chips), as well as snacks all day including a chocolate fountain and Sonic slushies - in addition to donated tshirts, swag, and prizes.
+          This year, the theme for the hackathon was wildfire defense. Students worked in teams to brainstorm and create innovative solutons
+          to one of three theme categories: detection, supression, or communication. 7th-12th grade students from several schools across Arizona with various backgrounds and interests, created websites, apps, video games, and physical
+          prototypes to compete for prizes. Throughout the day, workshops were held that taught students skills such as working with microcontrollers, coding rovers, building websites, and 3D modeling.
+           Thanks to our generous sponsors, we were able to provide breakfast (Bosa donuts, waffle station, sausages, and fruit) and lunch (Firehouse Subs, 
+          chips, and drinks), as well as snacks all day including a chocolate fountain, in addition to free tshirts and swag for everyone, and even prizes for the best projects!
           </p>
           <a href="/">
                     <img src={PH2} class="responsive2"/>
               </a><br />
-              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduino IDE, Creality 3D, electronics boards, and robotics kits.
-              See all the AMAZING projects created at the Ponderosa Hacks event in the&nbsp;          
+              <br /><p>Lots of technology was leveraged for workshops and student projects, such as HTML, CSS, Github, Codespace, Arduinos, Creality 3D, electronics boards, and robotics kits.
+              See more pictures from the event on our&nbsp;          
+              {/*}
               <a href="https://ponderosa-hacks.devpost.com/project-gallery" target="_blank">
-              Devpost Project Gallery</a> &nbsp;and view our&nbsp;          
+              Devpost Project Gallery</a> &nbsp;and view our&nbsp;  
+              */}        
               <a href="https://www.instagram.com/ponderosa_hacks/" target="_blank">
               Instagram Account</a>&nbsp;for select photos from the event.
           </p>
-          */}
+          
 
 
         </div>
